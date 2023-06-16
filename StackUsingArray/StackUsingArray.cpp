@@ -49,6 +49,7 @@ public:
 		else {
 			for (int tmp = top; tmp >= 0; tmp--) {
 				cout << stack_array[tmp] << endl;
+				cout << "\n" << endl;
 			}
 		}
 	}
@@ -69,7 +70,10 @@ int main() {
 
 			switch (ch) {
 			case'1':
-				obj.push(); 
+				int element;
+				cout << "Masukkan data : " << endl; 
+				cin >> element;  
+				obj.push(element); 
 				break;
 			case'2':
 				obj.pop();
@@ -80,8 +84,8 @@ int main() {
 			case'4':
 				return 0;
 			default:
-				cout << "Invalid" << endl;
-				break;
+				cout << "Invalid option" << endl;
+				break; 
 			}
  		}
 		catch (exception& e) {
