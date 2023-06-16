@@ -53,3 +53,16 @@ public:
 		}
 	}
 };
+
+int main() {
+	stackArray obj;
+	while (true) {
+		try {
+			cout << "===Stack Array===" << endl;
+			cout << "1. PUSH" << endl;
+			cout << "2. POP" << endl;
+			cout << "3. DISPLAY" << endl;
+			cout 
+ 		}
+	}
+}
