@@ -65,7 +65,27 @@ int main() {
 			cout << "4. EXIT" << endl;
 			cout << "Masukkan pilihan : " << endl;
 			char ch;
-			cin >> ch;
+			cin >> ch; 
+
+			switch (ch) {
+			case'1':
+				obj.push(); 
+				break;
+			case'2':
+				obj.pop();
+				break;
+			case'3':
+				obj.display();
+				break;
+			case'4':
+				return 0;
+			default:
+				cout << "Invalid" << endl;
+				break;
+			}
  		}
+		catch (exception& e) {
+			cout << "check for the values entered" << endl; 
+		}
 	}
 }
