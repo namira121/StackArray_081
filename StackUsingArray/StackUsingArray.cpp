@@ -62,7 +62,10 @@ int main() {
 			cout << "1. PUSH" << endl;
 			cout << "2. POP" << endl;
 			cout << "3. DISPLAY" << endl;
-			cout 
+			cout << "4. EXIT" << endl;
+			cout << "Masukkan pilihan : " << endl;
+			char ch;
+			cin >> ch;
  		}
 	}
 }
