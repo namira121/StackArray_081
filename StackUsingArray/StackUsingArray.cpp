@@ -22,6 +22,6 @@ public:
 		top++; //step2
 		stack_array[top] = element; //step 3
 		cout << endl;
-		cout << element << "ditambahkan(pushed)"
+		cout << element << "ditambahkan(pushed)" 
 	}
 };
